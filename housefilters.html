@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>craigslist ver.2.0</title>
+	<link rel="stylesheet" href="asset/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<style>
+	*{
+		font-family: 'Roboto', sans-serif;
+	}
+	header img {
+		width: 200px;
+		margin: 30px 150px;
+	}
+</style>
+</head>
+
+
+<body>
+	<header id="map">
+		<img src="asset/img/craigslist.png">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="community.html">Community</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="housing.html">Housing</a></li>
+				<li><a href="forsale.html">For Sale</a></li>
+				<li><a href="job.html">Job</a></li>
+				<li><a href="discussion.html">Discussion</a></li>
+				<li><a href="gigs.html">Gigs</a></li>
+				<li><a href="resumes.html">Resumes</a></li>
+			</ul>
+		</nav>
+
+		<!--accout and posting-->
+		<div class="container">
+			<div>
+				<a href="myaccount.html">Login</a>
+			</div>
+		</div>
+	</header>
+	<div id="searchsmall">
+	<div><h3>Housing</h3></div>
+		<div>
+			Sort by
+			<select>
+				<option name="sortby" value="newest">Newest</option>
+				<option name="sortby" value="price">Price</option>
+			</select>
+		</div>
+		<div>
+			Post Per Page
+			<select>
+				<option name="numberof post" value="18">18</option>
+				<option name="numberof post" value="233">233</option>
+			</select>
+		</div>
+		<div><a href="housing.html" style="color: black">Close Filter</a></div>
+    </div>
+    
+	<!--filter-->
+
+	<form>
+		<div class="filtercontainer">
+			<div class="filtercontrol">
+				<h1>Area</h1><br>
+				<lable>
+					<select>
+						<option name="city" value="all">New York</option>
+						<option name="city" value="brooklyn">Brooklyn</option>
+						<option name="city" value="manhattan">Manhattan</option>
+						<option name="city" value="bronx"> Bronx</option>
+						<option name="city" value="queens">Queens</option>
+						<option name="city" value="statenisland">Staten Island</option>
+					</select>
+				</lable><br>
+				<lable>
+					<select>
+						<option name="depart" value="all">All Housing</option>
+						<option name="depart" value="aptshousing">Apts / Housing</option>
+						<option name="depart" value="housingwanted">Housing Wanted</option>s
+						<option name="depart" value="roomsshared">Rooms / Shared</option>
+						<option name="depart" value="roomswanted">Rooms Wanted</option>
+						<option name="depart" value="vacationrentals">Vacation rentals</option>
+					</select>
+				</lable><br>
+			</div>
+				<lable><input type="checkbox" name="filter2" value="cats">Cats OK</lable><br>
+				<lable><input type="checkbox" name="filter2" value="dogs">Dogs OK</lable><br>
+				<lable><input type="checkbox" name="filter2" value="furnished">Furnished</lable><br>
+				<lable><input type="checkbox" name="filter2" value="nosmoking">No Smoking</lable><br>
+
+				<h3>Housing Type</h3>
+				<lable><input type="checkbox" name="filter3" value="apartment">apartment</lable><br>
+				<lable><input type="checkbox" name="filter3" value="condo">condo</lable><br>
+				<lable><input type="checkbox" name="filter3" value="flat">flat</lable><br>
+				<lable><input type="checkbox" name="filter3" value="house">house</lable><br>
+				<lable><input type="checkbox" name="filter3" value="loft">loft</lable><br>
+			
+				<h3>Parking</h3>
+				<lable><input type="checkbox" name="filter4" value="offstreetparking">off-street parking</lable><br>
+				<lable><input type="checkbox" name="filter4" value="streetparking">street parking</lable><br>
+				<lable><input type="checkbox" name="filter4" value="valetparking">valet parking</lable><br>
+				<lable><input type="checkbox" name="filter4" value="noparking">no parking</lable><br>
+			</div>
+		</div>
+	</form>

@@ -1,0 +1,278 @@
+*{
+	box-sizing: content-box;
+	margin:10px;
+	padding:1px;
+	text-decoration: none;
+    color: #90382B;
+}
+
+nav a{
+	text-decoration: none;
+	color: #DB8674;
+	font-size: 30px;
+	font-weight: bold;
+    font-family:serif;
+}
+
+nav{
+	position:absolute;
+	left: 110px;
+	top: 60px;
+	text-decoration: none;
+	padding: 0 5%;
+	min-width: 100px;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	position: relative;
+	top: 20px;
+	left: 150px;
+	margin: 10px 10px;
+}
+
+header{
+	background: #D5CECD;
+}
+
+.container:after{
+	content:'';
+	display:block;
+	clear:both;
+	position: absolute;
+}
+
+.container div{
+	float: right;
+	position: relative;
+	right: 40px;
+	bottom: 100px;
+}
+
+.container div a{
+	padding: 10px;
+	text-decoration: none;
+	color: #956D67;
+}
+
+#searchbg{
+	background: url(../img/simon-abrams-k_T9Zj3SE8k-unsplash.jpg);
+	background-position:left;
+	height: 220px;
+	font-size: 26px
+}
+
+.overlay{
+	padding-top:10px;
+	margin-left: 15%;
+	min-width: 300px;
+}
+
+.overlay h1{
+	color: #956D67;
+}
+
+.footernav{
+	background: url(../img/Untitled-1.jpg);
+	background-size: cover;
+	text-align: center;
+	min-width: 1200px;
+	padding: 30px 0px;
+	margin-top: 30px
+}
+
+.footernav div{
+	display: inline-block;
+	text-align: left;
+	width: 200px;
+	line-height: 1.9;
+}
+
+.footernav a{
+	text-decoration: none;
+	color: #956D67;
+}
+
+/*index content*/
+
+.depart{
+	font-weight:0px;
+	font-size: 30px;
+	margin: 20px 0px;
+    text-align:center;
+}
+
+.depart a{
+	color: #DB8674;
+}
+.catc{
+	padding-left: 16%;
+}
+
+.catc div{
+	display: inline-block;
+	width: 150px;
+	margin: 20px auto;
+	line-height: 2;
+}
+
+/*housing grid*/
+
+#searchsmall{
+	background: #EC8D7F;
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	display:flex;
+	justify-content: center;
+}
+
+#searchsmall div{
+	display: inline-block;
+	font-size: 20px;
+	padding: 5px 20px;
+}
+
+#searchsmall select{
+	height: 30px;
+	width: 120px;
+	font-size: 20px;
+}
+
+.g2 h3{
+	font-size: 22px;
+	color: #000;
+}
+
+.grid h2, .grid h4{
+	margin: 20px 0px;
+	color: #000;
+}
+
+.grid img{
+	border: 3px solid #F99B9B;
+	width: 370px
+}
+
+.grid{
+	display: inline-flex;
+	align-items: center;
+}
+
+
+#g1, .page{
+	text-align: center;
+}
+
+.g2{
+	padding: 10px;
+	margin: 20px;
+	border: 2px solid #F99B9B;
+	text-align: left;
+	max-width:1200px;
+	min-width: 370px;
+	box-shadow: 0px 0px 5px #F99B9B;
+}
+
+
+.indec{
+	display: inline-flex;
+}
+
+.indec div {
+	font-size: 20px;
+	padding: 5px 50px;
+	border: 2px solid #F99B9B;
+	margin: 0px 5px;
+	border-radius: 2px;
+	color: #F99B9B;
+}
+
+/*detail page*/
+
+#detailimg{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#detailimg div{
+	display: inline-block;
+}
+
+.thumbnailscon{
+	display: flex;
+	justify-content: center;
+}
+
+.thumbnails{
+	
+	text-align:left;
+	width: 900px;
+}
+
+.cta{
+	display: flex;
+	justify-content: center
+}
+
+.titleatext *{
+	padding: 10px 0;
+}
+
+.btnamap{
+	padding: 10px 0;
+}
+
+.btnamap h2{
+	padding: 1px;
+	text-align: center;
+	border-radius: 2px;
+	border: 2px solid rgba(84, 28, 139, 0.3);
+}
+
+.btnamap a{
+	color: rgba(84, 28, 139, 0.7);
+	padding:0 100px;
+}
+
+/*filters*/
+
+*.filtercontainer{
+	display: flex;
+	justify-content: center;
+}
+
+.filtercontrol{
+	width: 300px;
+}
+
+.filtercontrol2{
+	width: 500px;
+}
+
+.filtercontrol *, .filtercontrol2 *{
+	margin: 7px;
+}
+
+.filterbtn{
+	text-align: center;
+}
+
+.filterbtn button{
+	background: #fbf8ff;
+	color: #541c8b;
+	border-radius: 2px;
+	border: 2px solid #541c8b;
+}
+
+
+
+
+
+
+
