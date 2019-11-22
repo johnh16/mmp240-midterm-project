@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>craigslist ver.2.0</title>
+	
+	<style>
+	*{
+		font-family: 'Roboto', sans-serif;
+	}
+	header img {
+		width: 210px;
+		margin: 30px 150px;
+        text-align: left;
+	}
+ .topnav {
+  overflow: hidden;
+  background-color: #B4D5DF;
+}
+
+.topnav a.active {
+  background-color: #B4D5DF;
+  color: white;
+}
+
+.topnav .search-container {
+  float: left;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ccc;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+        .wrapper {
+        text-align: left;
+         margin: 10px;
+    }
+    
+       .wrapper ul {
+        display: ;
+        margin: 10px;
+        padding: 1px;
+        list-style-type: none;
+
+    }
+    .wrapper li {
+        float: left;
+        padding: 20px 5px;
+        border: 1px solid #B4D5DF;
+    }
+    
+        .flexcontainer {
+  display: flex;
+  justify-content:center;
+  background-color:#B4D5DF;
+}
+
+.flexcontainer > div {
+  background-color: #B4D5DF;
+  width: 100px;
+  margin: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+	<header id="map">
+		<img src="assets/imgs/craigslist.png">
+        
+    <div class="topnav">
+  <div class="search-container">
+      <div id="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+    </div>
+        
+		  <nav>
+        <div class="wrapper c50">
+            <div class="flexcontainer">
+    <ul>
+    <li><a href="index.html">Home</a></li>
+        <li><a href="housing%20page.html">Housing</a></li>
+    <ul>
+        <li><a href="housing%20page.html">apts/housing</a></li>
+        <li><a href="housing%20page.html">housing swap</a></li>
+        <li><a href="housing%20page.html">housing wanted</a></li>
+        <li><a href="housing%20page.html">office/commmercial</a></li>
+        <li><a href="housing%20page.html">storage</a></li>
+        <li><a href="housing%20page.html">real estate for sale</a></li>
+        <li><a href="housing%20page.html">rooms/shared</a></li>
+        <li><a href="housing%20page.html">sublets/temporary</a></li>
+        <li><a href="housing%20page.html">vacation rentals</a></li>
+    </ul>
+
+		<div id="flexcontainer">
+			<div>
+			Sort by
+				<select>
+					<option name="sortby" value="newest">Highest Price</option>
+					<option name="sortby" value="price"> Lower Price</option>		
+                    <option name="sortby" value="price">Most Viewed</option>
+                    <option name="sortby" value="newest">Newest</option>
+				</select>
+			</div>
+			<div>
+			Post Per Page
+					<select>
+						<option name="numberof post" value="18">30</option>
+						<option name="numberof post" value="233">100</option>
+					</select>
+			</div>
+
+
+<div class="page">
+	<div class="indec">
+		<div>
+			<i class="fas fa-chevron-left"></i>
+		</div>
+		<div>1-30/1500</div>
+		<div>
+			<i class="fas fa-chevron-right"></i>
+		</div>
+	</div>
+</div>
+            <div id="c50">
+			<a href="house%20description.html"><img src="assets/imgs/tribeca%20condo1.jpg"><h2>Condo w/ 6 Rooms 4 Bathrooms</h2><h3>$7,495,000</h3>
+			<h4>3,574 Ft<br>Tribeca</h4></a>
+		</div>
+		<div id="c50">
+			<a href="house%20description.html"><img src="assets/imgs/tribeca%20condo2.jpg"><h2>Condo w/ 6 Rooms 4 Bathrooms</h2><h3>$7,495,000</h3>
+			<h4>3,574 Square Ft<br>Tribeca</h4></a>
+		</div>
+		<div id="c50">
+			<a href="house%20description.html"><img src="assets/imgs/tribeca%20condo3.jpg"><h2>Condo w/ 6 Rooms 4 Bathrooms</h2><h3>$7,495,000</h3>
+			<h4>3,574 Square Ft<br>Tribeca</h4></a>
+		</div>
+	</div>
+
+            <hr>
+    <footer>
+        <div class="footer c25">
+        <ul>
+            <li><a href="index.html">craigslist</a></li>
+            <li>help</li>
+            <li>safety</li>
+            <li>privacy</li>
+            <li>feedback</li>
+            <li>cl jobs</li>
+            <li>terms</li>
+            <li>about</li>
+            <li>mobile</li>
+        </ul>
+            </div>
+    </footer>
+        
+</body></html>

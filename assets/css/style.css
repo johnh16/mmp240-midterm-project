@@ -1,0 +1,90 @@
+body{
+    background:#f4f4f4;
+    color:#555555;
+    
+    font-family:sans-serif;
+}
+
+.c50{
+    width:150px;
+    align-content: left;
+    
+}
+
+.c25{
+    width:75px;
+}
+
+    .topnav {
+  overflow: hidden;
+  background-color: #B4D5DF;
+}
+
+.topnav a.active {
+  background-color: #B4D5DF;
+  color: white;
+}
+
+.topnav .search-container {
+  float: left;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ccc;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+     .wrapper {
+        text-align: center;
+         margin: 15px;
+    }
+    
+       .wrapper ul {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+    }
+    .wrapper li {
+        float: left;
+        padding: 20px 5px;
+        border: 5px solid #B4D5DF;
+    }
+    
+.flexcontainer {
+  display: flex;
+  justify-content: center;
+  background-color:#B4D5DF;
+}
+
+.flexcontainer > div {
+  background-color: #B4D5DF;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+    
+.footer {
+    list-style-type:none;
+    background:#B4D5DF;
+    position: relative;
+    width: 500px;
+    margin: 0 auto 12px;
+    text-shadow: 10 1px 5px #ccc;
+    text-align: center;
